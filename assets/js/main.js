@@ -216,7 +216,9 @@ db.collection("Pedidos").where("RIF", "==", RIFC)
       
       
     }
-        
+  if (screen.width <= 500 ) {
+    document.getElementById("contact").setAttribute("class", "0");
+  }        
 
 
 	
