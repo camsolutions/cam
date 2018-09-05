@@ -167,7 +167,11 @@
 		}
 
 	}
-
+   
+   a:link{
+    text-decoration: none;
+    color: gray;
+   }
 	@media screen and (max-width: 736px) {
 
 		.container.\31 25\25 {
