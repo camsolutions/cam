@@ -2980,7 +2980,7 @@
 /* Banner */
 
 	
-	#banner {
+	.banner {
 		padding: 15em 0 10em 0;
 		background-image: url('../../images/welcome.jpg');
 		background-size: cover;
