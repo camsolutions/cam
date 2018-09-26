@@ -8,6 +8,16 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+
+/*
+
+Iconos
+*/
+
+
+
+
+
 /* Reset */
 
     .panel {
@@ -34,7 +44,7 @@
       border-bottom-right-radius: 0px;
   }
   .panel-footer {
-      background-color:#fff !important;
+      background-color:transparent;
   }
   .panel-footer h3 {
       color: white;
@@ -2991,6 +3001,19 @@
 		border-top: 0.5em solid #5385c1;
 		padding: 0;
 			min-height: 100vh;
+			height: 100vh !important;
+	}
+
+	#banners {
+	
+		background-image: url('../../images/universo2.jpg');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: repeat;
+		text-align: center;
+		padding: 0;
+		min-height: 100vh;
 			height: 100vh !important;
 	}
 
