@@ -22,11 +22,12 @@ Iconos
 
     .panel {
       border: 1px solid #0060c1; 
-      border-radius:0 !important;
+      border-radius:50% !important;
       transition: box-shadow 0.5s;
+      background-color: rgba(0,0,0,0.5);
   }
   .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .4);
+      box-shadow: 5px 0px 40px rgba(255,255,255, .4);
   }
   .panel-footer .btn:hover {
       border: 1px solid #016277;
@@ -42,6 +43,7 @@ Iconos
       border-top-right-radius: 0px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
+      background-size: contain; 
   }
   .panel-footer {
       background-color:transparent;
@@ -3006,15 +3008,30 @@ Iconos
 
 	#banners {
 	
+		padding: 15em 0 10em 0;
 		background-image: url('../../images/universo2.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		text-align: center;
+		border-top: 0.5em solid #5385c1;
 		padding: 0;
-		min-height: 100vh;
+			min-height: 100vh;
 			height: 100vh !important;
+	}
+
+	.banner2 {
+	
+		padding: 15em 0 10em 0;
+		background-image: url('../../images/universo.jpg');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		border-top: 0.5em solid #5385c1;
+		padding: 0;
 	}
 
 		#banner h1 {
