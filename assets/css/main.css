@@ -10,6 +10,49 @@
 
 /* Reset */
 
+    .panel {
+      border: 1px solid #0060c1; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .4);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #016277;
+      background-color: #fff !important;
+      color: #0077ef;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #0060c1 !important;
+      padding: 22px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color:#fff !important;
+  }
+  .panel-footer h3 {
+      color: white;
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: white;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #018cf7;
+      color: #fff;
+  }
+
+  .Planes{
+  	color: white;
+  }
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
