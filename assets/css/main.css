@@ -2258,6 +2258,8 @@ background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
+	height:300px;
+	width: 300px;	
 }
 
 
@@ -2298,6 +2300,8 @@ background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
+		height:300px;
+	width: 300px;
 }
 
 
@@ -2346,7 +2350,9 @@ background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-	
+		height:300px;
+	width: 300px;
+
 
 }
 
