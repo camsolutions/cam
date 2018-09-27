@@ -2252,6 +2252,7 @@ Iconos
 position: relative;
 animation: mymovea 3s;
 top: -170px;
+left: 40px;
 background-image:url(../../images/space.jpg);
 background-size: cover;
 		background-position: center;
@@ -2266,7 +2267,7 @@ background-size: cover;
 @keyframes mymovea {
      from {top: -450px;
      	left: 350px;}
-    to {left: 0px;
+    to {left: 40px;
 		top:-170px;
     }
 
@@ -2274,7 +2275,7 @@ background-size: cover;
 @-webkit-keyframes mymove {
     from {top: -450px;
      	left: 350px;}
-    to {left: 0px;
+    to {left: 40px;
 		top:-170px;
     }
 }
@@ -2282,7 +2283,7 @@ background-size: cover;
 @-moz-keyframes mymove {
      from {top: -450px;
      	left: 350px;}
-    to {left: 0px;
+    to {left: 40px;
 		top:-170px;
     }
 }
@@ -2293,7 +2294,8 @@ background-size: cover;
 
 position: relative;
 animation: mymoveb 3s;
-top: -30px;
+top: -20px;
+left: 40px;
 background-image: url(../../images/space2.jpg);
 background-size: cover;
 		background-position: center;
@@ -2310,8 +2312,8 @@ background-size: cover;
      	
      	}
     to {
-    	left: 0px;
-		top:-30px;
+    	left: 40px;
+		top:-20px;
     }
 
 }
@@ -2320,8 +2322,8 @@ background-size: cover;
      	
      	}
     to {
-    	left: 0px;
-		top:-30px;
+    	left: 40px;
+		top:-20px;
     }
 
 }
@@ -2331,8 +2333,8 @@ background-size: cover;
      	
      	}
     to {
-    	left: 0px;
-		top:-30px;
+    	left: 40px;
+		top:-20px;
     }
 
 }
