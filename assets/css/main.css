@@ -24,7 +24,7 @@ Iconos
       border: 1px solid #0060c1; 
       border-radius:50% !important;
       transition: box-shadow 0.5s;
-      background-color: rgba(0,0,0,0.5);
+      
   }
   .panel:hover {
       box-shadow: 5px 0px 40px rgba(255,255,255, .4);
@@ -2252,6 +2252,12 @@ Iconos
 position: relative;
 animation: mymovea 3s;
 top: -170px;
+background-image:url(../../images/space.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
 }
 
 
@@ -2279,11 +2285,19 @@ top: -170px;
     }
 }
 
+
+
 #Promo2{
 
 position: relative;
 animation: mymoveb 3s;
 top: -30px;
+background-image: url(../../images/space2.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
 }
 
 
@@ -2326,6 +2340,13 @@ top: -30px;
 position: relative;
 animation: mymovec 3s ;
 top:-170px;
+background-image: url(../../images/planet.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+	
 
 }
 
