@@ -2244,6 +2244,119 @@ Iconos
 		opacity: 0.5;
 	}
 
+/* Animation */
+
+
+#Promo{
+
+position: relative;
+animation: mymovea 3s;
+top: -170px;
+}
+
+
+@keyframes mymovea {
+     from {top: -450px;
+     	left: 350px;}
+    to {left: 0px;
+		top:-170px;
+    }
+
+}
+@-webkit-keyframes mymove {
+    from {top: -450px;
+     	left: 350px;}
+    to {left: 0px;
+		top:-170px;
+    }
+}
+
+@-moz-keyframes mymove {
+     from {top: -450px;
+     	left: 350px;}
+    to {left: 0px;
+		top:-170px;
+    }
+}
+
+#Promo2{
+
+position: relative;
+animation: mymoveb 3s;
+top: -30px;
+}
+
+
+@keyframes mymoveb {
+     from {top: -450px;
+     	
+     	}
+    to {
+    	left: 0px;
+		top:-30px;
+    }
+
+}
+@-webkit-keyframes mymoveb {
+    from {top: -450px;
+     	
+     	}
+    to {
+    	left: 0px;
+		top:-30px;
+    }
+
+}
+
+@-moz-keyframes mymoveb {
+    from {top: -450px;
+     	
+     	}
+    to {
+    	left: 0px;
+		top:-30px;
+    }
+
+}
+
+
+
+#Promo3{
+
+position: relative;
+animation: mymovec 3s ;
+top:-170px;
+
+}
+
+@keyframes mymovec {
+     from {top: -450px;
+     	left: -350px;
+     	}
+    to {left: 0px;
+		top:-170px;
+    }
+
+}
+@-webkit-keyframes mymovec {
+     from {top: -450px;
+     	left: -350px;
+     	}
+    to {left: 0px;
+		top:-170px;
+}
+}
+
+@-moz-keyframes mymovec {
+ from {top: -450px;
+     	left: -350px;
+     	}
+    to {left: 0px;
+		top:-170px;
+}
+
+}
+
 /* Box */
 
 	.box {
