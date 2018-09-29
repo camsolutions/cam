@@ -225,8 +225,10 @@ Iconos
    
    a:link{
     text-decoration: none;
-    color: gray;
+    color: white;
+
    }
+
 	@media screen and (max-width: 736px) {
 
 		.container.\31 25\25 {
@@ -2246,11 +2248,18 @@ Iconos
 
 /* Animation */
 
+#pro{
+		width: 400px;
+		height: 400px;
+}
+
+
 
 #Promo{
 
 position: relative;
 animation: mymovea 3s;
+animation-direction: alternate;
 top: -170px;
 left: 40px;
 background-image:url(../../images/space.jpg);
@@ -2294,6 +2303,7 @@ background-size: cover;
 
 position: relative;
 animation: mymoveb 3s;
+animation-direction: alternate;
 top: -20px;
 left: 40px;
 background-image: url(../../images/space2.jpg);
@@ -2382,9 +2392,119 @@ background-size: cover;
      	}
     to {left: 0px;
 		top:-170px;
-}
+
 
 }
+  }
+
+
+@media screen and (max-width: 980px) {
+
+
+/*  Potenciador Master   */ 
+
+
+#pro{
+	height:300px;
+	width: 300px;
+}
+
+#Promo3{
+
+position: static;
+
+
+background-image: url(../../images/planet.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		height:250px;
+	width: 250px;
+
+
+}
+
+					
+						
+
+
+/*  Empresas  */ 
+
+
+#Promo2{
+
+position: static;
+
+background-image: url(../../images/space2.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		height:250px;
+		width: 250PX;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* Emprendedor   */ 
+
+
+
+#Promo{
+
+position: static;
+
+background-image:url(../../images/space.jpg);
+background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+	height:250px;
+	width: 250px;	
+}
+
+
+
+
+
+
+}
+
+			@media screen and (max-width: 736px) {
+
+				#header a {
+					padding: 0 0.5em;
+				}
+
+			}
+
+
+
+	@media screen and (max-width: 480px) {
+
+		#header {
+			top: 1em;
+			min-width: 320px;
+		}
+
+	}
+
+
+
+
 
 /* Box */
 
@@ -3153,10 +3273,9 @@ background-size: cover;
 			height: 100vh !important;
 	}
 
-	#banners {
-	
+	 #banners {
+		background-image: url('../../images/universo.jpg');
 		padding: 15em 0 10em 0;
-		background-image: url('../../images/universo2.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
@@ -3166,6 +3285,8 @@ background-size: cover;
 		padding: 0;
 			min-height: 100vh;
 			height: 100vh !important;
+			min-width: 100vh;
+			height: 100vh;
 	}
 
 	.banner2 {
@@ -3302,5 +3423,3 @@ background-size: cover;
 		}
 
 	}
-
-	
