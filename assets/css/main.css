@@ -3259,7 +3259,7 @@ background-size: cover;
 /* Banner */
 
 	
-	.banner {
+	#banner {
 		padding: 15em 0 10em 0;
 		background-image: url('../../images/welcome.jpg');
 		background-size: cover;
@@ -3274,7 +3274,7 @@ background-size: cover;
 	}
 
 	 #banners {
-		background-image: url('../../images/universo.jpg');
+		background-image: url('../../images/universo2.jpg');
 		padding: 15em 0 10em 0;
 		background-size: cover;
 		background-position: center;
@@ -3285,7 +3285,7 @@ background-size: cover;
 		padding: 0;
 			min-height: 100vh;
 			height: 100vh !important;
-			
+
 	}
 
 	.banner2 {
@@ -3318,7 +3318,7 @@ background-size: cover;
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
-			#banner {
+			.banner {
 				background-attachment: scroll;
 			}
 
@@ -3326,7 +3326,7 @@ background-size: cover;
 
 		@media screen and (max-width: 1280px) {
 
-			#banner {
+			.banner {
 				padding: 10em 2em 8em 2em;
 			}
 
@@ -3334,7 +3334,7 @@ background-size: cover;
 
 		@media screen and (max-width: 980px) {
 
-			#banner {
+			.banner {
 				background-attachment: scroll;
 			}
 
@@ -3342,11 +3342,11 @@ background-size: cover;
 
 		@media screen and (max-width: 736px) {
 
-			#banner {
+			.banner {
 				padding: 8em 1.5em 6em 1.5em;
 			}
 
-				#banner h1 {
+				.banner h1 {
 					font-size: 2.5em;
 				}
 
@@ -3358,7 +3358,7 @@ background-size: cover;
 
 		@media screen and (max-width: 480px) {
 
-			#banner {
+			.banner {
 				padding: 6em 1.5em 4em 1.5em;
 			}
 
