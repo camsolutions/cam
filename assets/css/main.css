@@ -2255,7 +2255,7 @@ Iconos
 
 
 
-#Promo{
+.Promo{
 
 position: relative;
 animation: mymovea 3s;
@@ -2299,7 +2299,7 @@ background-size: cover;
 
 
 
-#Promo2{
+.Promo2{
 
 position: relative;
 animation: mymoveb 3s;
@@ -2351,7 +2351,7 @@ background-size: cover;
 
 
 
-#Promo3{
+.Promo3{
 
 position: relative;
 animation: mymovec 3s ;
