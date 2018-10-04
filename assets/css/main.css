@@ -19,11 +19,15 @@ Iconos
 
 
 /* Reset */
+.caracteristicas-s{
+	text-align: center;
+}
 
     .panel {
       border: 1px solid #0060c1; 
-      border-radius:50% !important;
+      text-align: center;
       transition: box-shadow 0.5s;
+      height: 500px;
       
   }
   .panel:hover {
